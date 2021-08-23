@@ -1,0 +1,175 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 50793724100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verifying Adactin login with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-details;verifying-adactin-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2445052000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16044203000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Am on the Adactin page",
+            "match": {
+              "location": "LoginPageStepdef.adactinPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 21405308000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Am enter the \"Tamilselvan1101\", \"Tamil@1101\" and enter the login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tamilselvan1101\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Tamil@1101\"",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginPageStepdef.usernameAndPasswordAndLogin(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6503393700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search the Hotel \"Melbourne\",\"Hotel Creek\",\"Standard\",\"1 - One\",\"1 - One\",\"1 - One\" and select the Hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Melbourne\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"Hotel Creek\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 76
+                }
+              ],
+              "location": "LoginPageStepdef.searchHotelAndSelectHotel(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2543978700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the details \"Tamil\",\"Antony\",\"Chennai\",\"9876567876543345\",\"American Express\",\"January\",\"2021\",\"255\" and order the Hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tamil\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Antony\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"9876567876543345\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"American Express\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"January\"",
+                  "offset": 85
+                },
+                {
+                  "val": "\"2021\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"255\"",
+                  "offset": 102
+                }
+              ],
+              "location": "LoginPageStepdef.enterDetailsAndOrder(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11640565300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the order Id",
+            "match": {
+              "location": "LoginPageStepdef.orderId()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verifying Adactin details",
+    "description": "",
+    "id": "verifying-adactin-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/loginpage.feature",
+    "tags": []
+  }
+]

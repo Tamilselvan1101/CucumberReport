@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="111.391185">
+<testcase classname="Verifying Adactin details" name="Verifying Adactin login with valid credentials" time="111.391185">
+<system-out><![CDATA[Given Am on the Adactin page................................................passed
+When Am enter the "Tamilselvan1101", "Tamil@1101" and enter the login button.passed
+And I search the Hotel "Melbourne","Hotel Creek","Standard","1 - One","1 - One","1 - One" and select the Hotel.passed
+And I enter the details "Tamil","Antony","Chennai","9876567876543345","American Express","January","2021","255" and order the Hotel.passed
+Then I should get the order Id..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
