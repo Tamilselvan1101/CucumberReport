@@ -1,21 +1,15 @@
 package com.stepdef;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class LoginPageStepdef {
 	WebDriver driver;
-
 
 	@When("Am enter the {string}, {string} and enter the login button")
 	public void usernameAndPasswordAndLogin(String userName, String password) {
@@ -76,7 +70,6 @@ public class LoginPageStepdef {
 
 		String orderId = driver.findElement(By.id("order_no")).getAttribute("value");
 		System.out.println(orderId);
-		driver.quit();
 	}
 
 }
